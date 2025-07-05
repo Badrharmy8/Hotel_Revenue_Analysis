@@ -23,7 +23,7 @@ To answer key business questions that affect hotel revenue and operations using 
 
 7. 📅 **Which month has the highest number of registrations over the years?**
 
-8. 👨‍👩‍👧 **Customer type breakdown: Adults, Children, Babies**
+8. 👨‍👩‍👧 **Profits Of Each Type Of Customer(adult , children , babies)**
 
 9. 🔁 **Number of registrations where the reserved room differs from the assigned room**
 
