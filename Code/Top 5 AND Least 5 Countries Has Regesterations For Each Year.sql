@@ -1,4 +1,4 @@
--- Top 5 AND Least 5 Countries Has Regesterations For Each Year
+--Top 5 AND Least 5 Countries Has Regesterations For Each Year
 -- Top 5
 SELECT Year ,
 	country ,

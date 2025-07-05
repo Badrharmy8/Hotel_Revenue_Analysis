@@ -1,23 +1,23 @@
 ﻿Year,market_segment,Profits,After_Discount
 2020,Groups,1.29%,1.17%
 2020,Direct,5.71%,5.14%
-2020,Online TA,27.52%,19.26%
 2020,Corporate,0.91%,0.77%
-2020,Offline TA/TO,3.42%,2.39%
 2020,Aviation,0.11%,0.09%
 2020,Complementary,0.00%,0.00%
-2019,Complementary,0.01%,0.00%
-2019,Undefined,0.00%,0.00%
-2019,Offline TA/TO,6.43%,4.50%
+2020,Online TA,27.52%,19.26%
+2020,Offline TA/TO,3.42%,2.39%
 2019,Online TA,31.65%,22.15%
-2019,Aviation,0.12%,0.10%
+2019,Complementary,0.01%,0.00%
 2019,Corporate,1.59%,1.35%
 2019,Groups,1.79%,1.61%
+2019,Aviation,0.12%,0.10%
 2019,Direct,6.73%,6.06%
+2019,Undefined,0.00%,0.00%
+2019,Offline TA/TO,6.43%,4.50%
+2018,Groups,1.03%,0.93%
 2018,Direct,2.41%,2.17%
-2018,Online TA,6.16%,4.31%
 2018,Corporate,0.56%,0.48%
+2018,Online TA,6.16%,4.31%
+2018,Complementary,0.00%,0.00%
 2018,Undefined,0.00%,0.00%
 2018,Offline TA/TO,2.54%,1.78%
-2018,Complementary,0.00%,0.00%
-2018,Groups,1.03%,0.93%

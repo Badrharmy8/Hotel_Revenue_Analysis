@@ -8,7 +8,6 @@ LEFT OUTER JOIN meal_cost MC
 ON H.meal = MC.meal
 GROUP BY H.arrival_date_year,H.meal
 ORDER BY YEAR DESC , Regersterations DESC;
-
 -- market segments contribution
 SELECT H.arrival_date_year AS YEAR,
 	H.market_segment AS Market_Semgment,
