@@ -82,7 +82,34 @@ To answer key business questions that affect hotel revenue and operations using 
 
 ## 📁 Project Structure
 
-- `/code/` → Contains all SQL files 
-- `/output/` → CSV exports of query results
-- `README.md` → Project overview and instructions
-    
+### 📂 Code Files (SQL Scripts)
+Each SQL file corresponds to one business question and performs the required data analysis:
+
+- `adults, children, and babies.sql`: Calculates the annual count of adults, children, and babies in bookings.
+- `Individual, family bookings.sql`: Calculates the annual ratio of individual bookings (adults only) vs. family bookings (with children or babies).
+- `Key Factors.sql`: Identifies the key factors (e.g., hotel type, market segment, meals, nights booked) that influence hotel revenue annually.
+- `Matching Rooms.sql`: Calculates the annual percentage of cases where reserved room matches the assigned room.
+- `Meals , Market Segments.sql`: Determines which meals and market segments contribute most to annual revenue.
+- `Profits.sql`: Calculates the monthly profit percentage across all years.
+- `public holidays and regular days.sql`: Compares revenue between public holidays and regular days annually.
+- `Repeated Guests.sql`: Calculates the annual percentage of repeated vs. non-repeated guests.
+- `Reservation Status.sql`: Calculates the annual percentage of bookings by reservation status.
+- `room types.sql`: Analyzes yearly trends in customer room type preferences and their impact on revenue.
+
+### 📁 Result Files (Output CSVs)
+Each CSV file contains the output corresponding to its related SQL query:
+
+- `adults, children, and babies.csv`: Output of `adults, children, and babies.sql`.
+- `Individual, family bookings.csv`: Output of `Individual, family bookings.sql`.
+- `Matching Rooms.csv`: Output of `Matching Rooms.sql`.
+- `Reservation Status.csv`: Output of `Reservation Status.sql`.
+- `Repeated Guests.csv`: Output of `Repeated Guests.sql`.
+- `Profits.csv`: Output of `Profits.sql`.
+- `public holidays and regular days.csv`: Output of `public holidays and regular days.sql`.
+- `room types.csv`: Output of `room types.sql`.
+- `Market Segments.csv`: Output of `Meals , Market Segments.sql`.
+- `Meals.csv`: Output of `Meals , Market Segments.sql` (same analysis split by dimension).
+- `Hotel Type.csv`: Output of `Key Factors.sql` (filtered for hotel type).
+- `Market Segment.csv`: Output of `Key Factors.sql` (filtered for market segment).
+- `Meal Offered.csv`: Output of `Key Factors.sql` (filtered for meal offered).
+- `Number Of Nights.csv`: Output of `Key Factors.sql` (filtered for number of nights booked).
