@@ -11,23 +11,23 @@ To answer key business questions that affect hotel revenue and operations using 
 
 1. 📈 **What is the profit percentage for each month across all years?**
 
-2. 🍽️ **Which meals and market segments (e.g., families, corporate clients) contribute the most to the total revenue for each hotel annually?**
+2. 🍽️ **Which meals and market segments (e.g., families, corporate clients, etc.) contribute the most to the total revenue for each hotel annually?**
 
 3. 🏖️ **How does revenue compare between public holidays and regular days each year?**
 
 4. 🧩 **What are the key factors (e.g., hotel type, market type, meals, nights booked) that significantly impact hotel revenue annually?**
   
-5. 🛏️ **Based on stay data, what are the yearly trends in customer preferences for room types (e.g., family vs. single), and how do these preferences influence revenue?**
+5. 🛏️ **Based on stay data, what are the yearly trends in customer preferences for room types (e.g., family rooms vs. single rooms), and how do these preferences influence revenue?**
 
-6. 🌍 **Top 5 and Least 5 countries with the highest number of registrations for each year**
+6. 👨‍👩‍👧 **What is the annual count of adults, children, and babies in the bookings?**
 
-7. 📅 **Which month has the highest number of registrations over the years?**
+7. 🔍 **What is the annual percentage of bookings by reservation status?**
 
-8. 👨‍👩‍👧 **Profits Of Each Type Of Customer(adult , children , babies)**
+8. 👨‍👩‍👧 **What is the annual ratio of individual bookings (adults only) versus family bookings (with children or babies)?**
 
-9. 🔁 **Number of registrations where the reserved room differs from the assigned room**
+9. 🔁 **What is the annual percentage of cases where the reserved room matches the assigned room?**
 
-10. 💡 **Percentage of guests who repeated their journey (repeated customers)**
+10. 💡 **What is the annual percentage of repeated guests compared to non-repeated guests?**
 
  ## 🛠️ Tools Used
  
@@ -82,7 +82,34 @@ To answer key business questions that affect hotel revenue and operations using 
 
 ## 📁 Project Structure
 
-- `/code/` → Contains all SQL files 
-- `/output/` → CSV exports of query results
-- `README.md` → Project overview and instructions
-    
+### 📂 Code Files (SQL Scripts)
+Each SQL file corresponds to one business question and performs the required data analysis:
+
+- `adults, children, and babies.sql`: Calculates the annual count of adults, children, and babies in bookings.
+- `Individual, family bookings.sql`: Calculates the annual ratio of individual bookings (adults only) vs. family bookings (with children or babies).
+- `Key Factors.sql`: Identifies the key factors (e.g., hotel type, market segment, meals, nights booked) that influence hotel revenue annually.
+- `Matching Rooms.sql`: Calculates the annual percentage of cases where reserved room matches the assigned room.
+- `Meals , Market Segments.sql`: Determines which meals and market segments contribute most to annual revenue.
+- `Profits.sql`: Calculates the monthly profit percentage across all years.
+- `public holidays and regular days.sql`: Compares revenue between public holidays and regular days annually.
+- `Repeated Guests.sql`: Calculates the annual percentage of repeated vs. non-repeated guests.
+- `Reservation Status.sql`: Calculates the annual percentage of bookings by reservation status.
+- `room types.sql`: Analyzes yearly trends in customer room type preferences and their impact on revenue.
+
+### 📁 Result Files (Output CSVs)
+Each CSV file contains the output corresponding to its related SQL query:
+
+- `adults, children, and babies.csv`: Output of `adults, children, and babies.sql`.
+- `Individual, family bookings.csv`: Output of `Individual, family bookings.sql`.
+- `Matching Rooms.csv`: Output of `Matching Rooms.sql`.
+- `Reservation Status.csv`: Output of `Reservation Status.sql`.
+- `Repeated Guests.csv`: Output of `Repeated Guests.sql`.
+- `Profits.csv`: Output of `Profits.sql`.
+- `public holidays and regular days.csv`: Output of `public holidays and regular days.sql`.
+- `room types.csv`: Output of `room types.sql`.
+- `Market Segments.csv`: Output of `Meals , Market Segments.sql`.
+- `Meals.csv`: Output of `Meals , Market Segments.sql` (same analysis split by dimension).
+- `Hotel Type.csv`: Output of `Key Factors.sql` (filtered for hotel type).
+- `Market Segment.csv`: Output of `Key Factors.sql` (filtered for market segment).
+- `Meal Offered.csv`: Output of `Key Factors.sql` (filtered for meal offered).
+- `Number Of Nights.csv`: Output of `Key Factors.sql` (filtered for number of nights booked).
